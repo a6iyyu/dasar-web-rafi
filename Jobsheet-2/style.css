@@ -1,5 +1,6 @@
 body {
-  background: url(../Jobsheet-1/bunga2.jpg);
+  background: url("./img/tree.avif"), url("./img/field.jfif");
+  background-repeat: no-repeat, repeat;
   color: white;
 }
 
