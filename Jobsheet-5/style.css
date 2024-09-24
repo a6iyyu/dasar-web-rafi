@@ -1,0 +1,16 @@
+.kotak {
+	height: 80px;
+	width: 80px;
+}
+
+#div-1 {
+	background-color: red;
+}
+
+#div-2 {
+	background-color: green;
+}
+
+#div-3 {
+	background-color: blue;
+}

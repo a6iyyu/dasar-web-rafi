@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="jquery-3.7.1.js"></script>
+		<script>
+			$(document).ready(() => {
+				$(".tombol-1").click(() => {
+					$("div").hide();
+				});
+				$(".tombol-2").click(() => {
+					$("div").show();
+				});
+				$(".tombol-3").click(() => {
+					$("#div-1").fadeOut();
+					$("#div-2").fadeOut("slow");
+					$("#div-3").fadeOut(3000);
+				});
+				$(".tombol-4").click(() => {
+					$("#div-1").fadeIn();
+					$("#div-2").fadeIn("slow");
+					$("#div-3").fadeIn(3000);
+				});
+				$(".tombol-5").click(() => {
+					$("#div-1").fadeTo("slow", 0.15);
+					$("#div-2").fadeTo("slow", 0.4);
+					$("#div-3").fadeTo("slow", 0.7);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<p>jQuery Effect.</p>
+		<div id="div-1" class="kotak"></div>
+		<br /><br />
+		<div id="div-2" class="kotak"></div>
+		<br /><br />
+		<div id="div-3" class="kotak"></div>
+		<br /><br />
+		<button class="tombol-1">Sembunyikan</button>
+		<button class="tombol-2">Tampilkan</button>
+		<button class="tombol-3">Fade Out</button>
+		<button class="tombol-4">Fade In</button>
+		<button class="tombol-5">Fade To</button>
+	</body>
+</html>
