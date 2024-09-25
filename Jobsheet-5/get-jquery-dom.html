@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="jquery-3.7.1.js"></script>
+    <script>
+      $(document).ready(() => {
+        $("#button-1").click(() => alert($("#test-1").text()));
+        $("#button-2").click(() => alert($("#test-2").html()));
+        $("#button-3").click(() => alert($("#test-3").val()));
+      });
+    </script>
+  </head>
+  <body>
+    <p id="test-1">This is the first paragraph.</p>
+    <p id="test-2">This is <b>another</b> paragraph.</p>
+    <p>Your name: <input type="text" id="test-3" /></p>
+    <button id="button-1">Get Text</button>
+    <button id="button-2">Get HTML</button>
+    <button id="button-3">Get Value</button>
+  </body>
+</html>

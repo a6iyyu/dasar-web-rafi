@@ -1,0 +1,28 @@
+#slider {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  padding: 10px 0 10px;
+}
+
+#slider img {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.slider-title {
+  position: absolute;
+  margin-top: 265px;
+  width: 280px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: rgba(12, 22, 23, 0.5);
+  color: #fff;
+  -webkit-border-radius: 0px 0px 5px 5px;
+  -moz-border-radius: 5px;
+}
