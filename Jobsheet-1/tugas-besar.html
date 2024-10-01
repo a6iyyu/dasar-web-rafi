@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="Indonesia">
+  <head>
+    <title>Studi Kasus</title>
+  </head>
+  <body>
+    <form method="POST">
+      <fieldset>
+        <legend>Data Mahasiswa</legend>
+        <label for="nama">Nama</label>
+        <input type="text" name="nama" size="30" /><br /><br />
+        <label for="email">Email</label>
+        <input type="email" name="email" size="30" /><br /><br />
+        <label for="ttl">Tanggal Lahir</label>
+        <input type="date" name="ttl" /><br /><br />
+        <label for="jk">Jenis Kelamin</label>
+        <select name="jk" size="1">
+          <option value="L" selected>Laki - Laki</option>
+          <option value="P">Perempuan</option>
+          <option value="rhs">Tidak ingin menyebutkan</option>
+        </select>
+        <br />
+        <label for="almt">Alamat</label><br />
+        <textarea name="address" id="adr"></textarea>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Komentar</legend>
+        <label for="darimana">Darimana anda mengetahui buku ini? </label>
+        <select name="src" id="src">
+          <option value="ggl" selected>Google</option>
+          <option value="ytb">Youtube</option>
+          <option value="xmt">X</option>
+          <option value="tt">Tiktok</option>
+        </select>
+        <br />
+        <label for="how">Bagaimana menurut anda buku ini? </label><br />
+        <input type="radio" name="pil1" /> Biasa
+        <input type="radio" name="pil2" /> Bagus
+        <input type="radio" name="pil3" /> Menarik
+        <br />
+        <label for="kmntr">Komentar</label><br />
+        <textarea name="komen" id="kmn"></textarea><br />
+        <input type="checkbox" />
+        <label for="kirim">Kirim ke Email bila ada info tebaru</label>
+      </fieldset>
+      <br />
+      <center>
+        <input type="submit" name="krm" value="Kirim" />
+      </center>
+    </form>
+  </body>
+</html>

@@ -6,4 +6,3 @@ echo "Panjang karakter adalah " . strlen($lorem_ipsum) . "<br />";
 echo "Panjang kata adalah " . str_word_count($lorem_ipsum) . "<br />";
 echo "<p>" . strtoupper($lorem_ipsum) . "</p>";
 echo "<p>" . strtolower($lorem_ipsum) . "</p>";
-?>
